@@ -5,7 +5,7 @@
 
 前台用户系统包括课程、讲师、问答、文章几大大部分，使用了微服务技术架构，前后端分离开发。
 
-后端的主要技术架构是：SpringBoot + SpringCloud + MyBatis-Plus + HttpClient + MySQL + Maven+EasyExcel+ nginx
+后端的主要技术架构是：**SpringBoot 2.3.2.RELEASE** + **SpringCloud Hoxton.SR7 + SpringCloud Alibaba 2.2.1.RELEASE** + MyBatis-Plus + HttpClient + MySQL + Maven+EasyExcel+ nginx
 
 前端的架构是：Node.js + Vue.js +element-ui+NUXT+ECharts
 
@@ -22,3 +22,17 @@
 前台用户系统包括：首页、课程、名师、问答、文章。
 
 后台管理系统包括：讲师管理、课程分类管理、课程管理、统计分析、Banner管理、订单管理、权限管理等功能。
+
+**微服务架构：**
+
+**服务发现—–Nacos**
+
+**服务调用—–OpenFeign**
+
+**服务熔断—–Hystrix**
+
+**服务网关—–Spring Cloud GateWay**
+
+**配置中心—–Nacos**
+
+**消息总线—–Nacos**
