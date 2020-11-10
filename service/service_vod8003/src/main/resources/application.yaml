@@ -23,5 +23,5 @@ spring:
 aliyun:
   vod:
     file:
-      keyid: LTAI4FzsNoqYAMKC4NzPLqWs
-      keysecret: K7mqWlSvnr9n5KSoZfjGaSxuh5ddbE
+      keyid: 阿里云key
+      keysecret: 阿里云秘钥
