@@ -27,7 +27,7 @@ public class MsmServiceImpl implements MsmService {
         if(StringUtils.isEmpty(phone)) return false;
 
         DefaultProfile profile =
-                DefaultProfile.getProfile("default", "LTAI4FzsNoqYAMKC4NzPLqWs", "K7mqWlSvnr9n5KSoZfjGaSxuh5ddbE");
+                DefaultProfile.getProfile("default", "阿里云key", "阿里云秘钥");
         IAcsClient client = new DefaultAcsClient(profile);
 
         //设置相关固定的参数
